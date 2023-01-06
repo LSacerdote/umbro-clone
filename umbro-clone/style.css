@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1264px;
+    max-height: 1300px;
+   
+    }
+    header{
+      border-bottom: 1px solid rgba(199, 199, 199, 0.795);
+  
+  }
+  header:hover{
+    border-bottom: 1px solid rgba(196, 5, 5, 0.795);
+transition: 2s;
+}
+#nav-top {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(228, 228, 228);
+}
+#nav-menu img{
+height: 50px;
+margin-left: 5px;
+float: left
+;
+
+}
+    #nav-menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  
+    }
+#nav-menu li{
+    float: left;
+    
+}
+#nav-menu p{
+  text-align: center;
+  color: rgb(173, 3, 3);
+}
+#nav-menu a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+  }
+  #nav-menu a:hover{
+   
+    transition: 0.7s;
+    border-bottom: 1px solid white;
+  }
+  .main img{
+    height: 455px;
+  }
+  .sobre{
+    border-top: 0,5px solid rgba(199, 199, 199, 0.795);
+    
+  }
+  .conteudo h2{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(71, 71, 71);
+  }
+  .times img{
+   height: 100px;
+    margin-left: 40px;
+  margin: 40px;
+  padding-left: 12px;
+  align-items: center;
+  float: right;
+
+  }
+.escudo p{
+  font-weight: bold;
+ padding-top: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.times img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+} 
+
+.escudo {
+  float: left;
+  display: inline;
+  align-items: center;
+  text-align: center;
+}
+#container{
+  display: inline;
+  float: left;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+#container img{
+  height: 350px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+#container img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+#products img{
+   height: 328px;
+   padding-top: 20px;
+   padding-left: 20px;
+ 
+}
+#on p{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.produtos img{
+  height: 200px;
+ padding: 12px;
+
+
+}
+.produtos ul{
+  display: inline;
+  float: left;
+  margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  #navbar{display: none;}
+  .btn-toggle{display: block;}
+}
+
+
+
+
