@@ -13,5 +13,6 @@ CSS
 Abrindo o site em seu computador
 
 Usando GIT, Copie o repositório com o commando:
+
 git clone https://github.com/lsacerdote/umbro-clone.git
 Abra index.html com o seu browser para ver o resultado.
